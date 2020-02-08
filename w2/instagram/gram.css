@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    } 
+    .content-control{
+        width: 1942px;
+        height: 1000px;
+      
+        
+        }
+        body{
+           background:#FAFAFA;
+        }
+        .left{
+      float: left; 
+          
+        }
+        .left img{
+        margin-top:140px;
+        margin-left: 470px;
+        width: 350px;
+    height:550px;}
+    .account h1{
+       font-family:inherit;
+       text-align: center;
+       padding-top:20px;
+    
+    }
+    .account p{
+        color:#999999;
+        text-align:center;
+        padding-right:40px;
+        padding-left:40px;
+    }
+    .right{
+        float:right;
+        
+     }
+     .account{
+        width: 320px;
+        margin-right: 780px;
+        margin-top: 40px;
+        border-radius: 3px;
+        height: 530px;       
+        border:1px solid #E6E6E6;;
+        background:white;
+        
+        
+     }
+     .account input[type="submit"]{
+        height:30px;
+        width: 240px;
+        background: #3897F0;
+        border: 1px solid #3897F0;
+        border-radius: 5px;
+        font-size: 15px;
+        color:#fff;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        
+        margin-left: 40px;
+        float: center;
+    }
+    #contentCurve{
+        border-bottom: 1px solid #DBDBDB;
+        font-size: 1px;
+        height: 1px;
+        margin-bottom: 11px;
+        float: left;
+        margin-left: 40px;
+        padding-top: 8px;
+     
+        width:100px;
+        margin-bottom: 20px;    
+    }
+    #ll{
+      
+        float: left;
+        margin-left: 148px;
+        position: absolute;
+        color:#999999;
+       
+    }
+    .ipt{
+        width: 240px;
+        height:25px;
+        margin-top: 5px;
+        border-radius: 3px;
+        border: 1px solid #95a5a6;
+        margin-left:40px ;
+
+        
+    
+    }
+    .have{
+        height: 70px;
+        width: 320px;
+        
+        margin-right: 780px;
+        border-radius: 3px;
+        border:1px solid #E6E6E6;;
+        background:white;
+        margin-top: 15px;
+    }
+    .have p,a{
+        text-align: center;
+        padding-top: 25px;
+    }
+    .app p{
+       
+     
+        margin-top:15px;
+        margin-left: 65px;
+        margin-bottom: 15px;
+    }
+  .app img{
+      height: 40px;
+      width: 136px;
+  }
+  .ft{
+    position: absolute;
+    left: 0;
+    top: 900px;
+    width: 100%;
+    word-spacing: 1em;
+margin-left:360px;}
+    .ft a{text-decoration: none;
+    font-size: 13px;
+    }
+    .ft p{
+        color:dimgrey;
+        font-size:12px;
+         margin-top: 10px;
+         word-spacing: 0.2em;
+    }
