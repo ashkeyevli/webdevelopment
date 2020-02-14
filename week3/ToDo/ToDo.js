@@ -1,13 +1,5 @@
 
 
-    
-    //Removing items
-
-    
-
-
-
-
 var myList=document.getElementsByTagName("li");
 var index;
 for(index=0;index<myList.length;index++){
@@ -37,9 +29,12 @@ if(event.target.tagName==="LI"){
 
 function createNewElement(){
     var li=document.createElement('li');
+    var check = document.createElement('input');
+    check.type="checkbox";
     var theInputValue=document.getElementById("the-input").value;
     var textNode=document.createTextNode(theInputValue);
     li.appendChild(textNode);
+    li.appendChild(check);
     if(theInputValue===''){
         alert("It cannot be empty");
         

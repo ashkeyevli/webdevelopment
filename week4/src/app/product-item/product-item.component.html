@@ -1,0 +1,21 @@
+<div>
+  <h3>
+    <a [title]="product.name" href="{{product.link}}">
+      {{product.name}}
+    </a>
+  </h3>
+  <img src="{{product.image}}">
+  <p *ngIf="product.price">
+    Price: {{product.price}}
+  </p>
+  <p id="description" *ngif="product.description">
+    Desciption: {{product.description}}
+  </p>
+  <p *ngIf="product.rating">
+    Rating: {{product.rating}}
+  </p>
+  <button (click)="share(product)">
+    Share
+  </button>
+
+</div>
