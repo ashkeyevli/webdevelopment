@@ -29,4 +29,9 @@ export class HeroDetailComponent implements OnInit {
   ngOnInit(): void {
     this.getHero();
   }
+
+  save(): void {
+    this.heroService.updateHero(this.hero).
+      subscribe(() => this.goBack());
+    }
 }
