@@ -38,3 +38,5 @@ def product_detail(request, pk):
     except Product.DoesNotExist as e:
         return JsonResponse({'error':str(e)}, safe=False)
     return JsonResponse(product.to_json(),safe=False,json_dumps_params={'ensure_ascii':False})
+def start(request):
+    return HttpResponse('please enter valid URL which starts from api/(can choose between api/categories... or api/products...)')
